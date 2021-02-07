@@ -1,0 +1,42 @@
+#food-menu img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.item img{
+    
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+   
+}
+.meal-name{
+    font-size: 20px;
+}
+
+#food-menu div{
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 22%;
+}
+#title{
+    display: none;
+    font-size: 40px;
+    color:rebeccapurple;
+}
+#food-ingredient ul{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+#food-ingredient ul li{
+    padding-top: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 22%;
+    
+}
