@@ -75,6 +75,7 @@ function getFoodIngredients(foodMenuDiv,element){
 
     const search_btn = document.getElementById("searchBtn");
     search_btn.addEventListener('click',()=>{
+    document.getElementById("food-menu").innerHTML = "";
     const food=document.getElementById("food").value;
     const len = food.length;
     if(len == 1) getFoodMenu('f',food[0]);
